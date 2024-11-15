@@ -141,6 +141,8 @@ we want to inherit all the fields from the superclass.
 
 # Quiz
 
+<p style="margin-bottom: 20px;"> </p>
+
 ```java
 class Super {
     Super() {
@@ -182,7 +184,7 @@ What is printed by the code snippet?
   for <code>Super</code>. Thus, it prints <code>Super</code>, then <code>Sub</code>.
 </details>
 
-<br>
+<p style="margin-bottom: 20px;"> </p>
 
 ```java
 class Super {
@@ -212,7 +214,7 @@ public class Main {
 ```
 {: file="Main.java"}
 
-What is wrong with this code?
+Why doesn't this code compile?
 
 1. The no-args constructor is called for `Super`, but no such constructor exists.
 2. The constructor for `Sub` attempts to access a field in `Super`.
