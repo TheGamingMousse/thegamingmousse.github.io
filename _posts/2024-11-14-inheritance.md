@@ -2,6 +2,7 @@
 title: Inheritance in Java
 date: 2024-11-14 17:00:00 -0800
 categories: [Programming, Java]
+tags: [AP CS]
 ---
 
 | Resources                                                                      | Description                      |
