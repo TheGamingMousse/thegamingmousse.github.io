@@ -5,12 +5,10 @@ categories: [Programming, Java]
 tags: [AP CS]
 ---
 
-| Resources                                                                      | Description                      |
-| :----------------------------------------------------------------------------- | :------------------------------- |
-| [W3Schools](https://www.w3schools.com/java/java_inheritance.asp)               | Brief Inheritance Intro          |
-| [Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)   | More Detailed Inheritance Intro  |
-| [W3Schools](https://www.w3schools.com/java/java_polymorphism.asp)              | Brief Polymorphism Intro         |
-| [Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html) | More Detailed Polymorphism Intro |
+| Resources                                                                    | Description                     |
+| :--------------------------------------------------------------------------- | :------------------------------ |
+| [W3Schools](https://www.w3schools.com/java/java_inheritance.asp)             | Brief Inheritance Intro         |
+| [Oracle](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html) | More Detailed Inheritance Intro |
 
 In Java, we can inherit fields and methods from one class to another. The parent class
 (i.e. the one that is being inherited from) is called the **superclass**, while the child class
