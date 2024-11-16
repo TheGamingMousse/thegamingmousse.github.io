@@ -138,9 +138,62 @@ we want to inherit all the fields from the superclass.
 > However, **this is only if we haven't written any constructors for our class.**
 {: .prompt-info }
 
-# Quiz
+## Quiz
 
 <p style="margin-bottom: 20px;"> </p>
+
+### Question 1
+
+```java
+class Vehicle {
+    Vehicle(String type) {
+        System.out.println("Vehicle: " + type);
+    }
+}
+
+class Car extends Vehicle {
+    Car() {
+        super("Car");
+        System.out.println("Car: Engine started");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Vehicle myVehicle = new Car();
+    }
+}
+```
+{:file="Main.java"}
+
+What is printed by the code snippet?
+
+1. 
+        Vehicle: Car
+
+2. 
+        Vehicle: Car
+        Car: Engine started
+3. 
+        Car: Engine started
+
+4. 
+        Car: Engine started        
+        Vehicle: Car
+
+5. This code doesn't compile.
+
+<details>
+  <summary>Answer</summary>
+  Option 2 is correct. When we call the constructor for <code>Car</code>, it calls the superclass constructor, which is the constructor for 
+  <code>Vehicle</code>. That method prints out "<code>Vehicle: Engine started</code>". Then, we return back to the constructor for <code>Car</code>
+  and print "<code>Car: Engine started</code>".
+
+</details>
+
+<p style="margin-bottom: 20px;"> </p>
+
+### Question 2
 
 ```java
 class Super {
@@ -184,6 +237,8 @@ What is printed by the code snippet?
 </details>
 
 <p style="margin-bottom: 20px;"> </p>
+
+### Question 3
 
 ```java
 class Super {
